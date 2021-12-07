@@ -41,3 +41,46 @@
 
 ---
 
+#### 깃 명령어
+
+- `git clone '주소'` : repository에 자료를 받아서 사용
+- `git status` : 현재 작성중인 디랙토리 기준 내용 상태파악
+- `git add [첨부파일]` : git으로 보낼 자료 선택
+- `git commit -m '설명'` : 보낼 자료에대한 설명
+- `git push` : 자료 전송
+- `git push --origin-upstream` : 최초의 상태에서 자료를 본내는 경우 (브랜치를 생성하더라도 동일)
+- `git pull` : 자료 추가로 받아오기
+- `git branch -a` : branch 목록 받아오기(현재 디렉토리 뿐아니라, 서버의 자료까지 받아오는 것)
+- `git checkout [브랜치명]` : 해당 브랜치로 이동
+- `git checkout -b [브랜치명]` :현재 디렉토리에는 없으나 서버에 존재하는 자료를 받아오게 처리
+- `git merge [브랜치명]` : 해당 branch를 병합 처리
+- `git branch -d [브랜치명]` : 선택된 브랜치는 삭제 (local)
+- `git push origin --delete [브랜치명]` : git 사이트에 존재하는 branch를 삭제
+- `git reset HEAD~n` : git 현재내용을 이전 `n`단계만큼 이전상태로 이동 처리
+- `git revert HEAD~n` : git reset과 유사하지만, `n`단계만큼 이전상태의 내용을 현재로 복사하여 가져오는 기능
+- 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
